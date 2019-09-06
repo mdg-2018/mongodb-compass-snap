@@ -28,6 +28,7 @@ parts:
 apps:
   mongodb-compass:
     command: mongodb-compass
+    desktop: usr/share/applications/mongodb-compass.desktop
     plugs:
       - desktop
       - desktop-legacy
